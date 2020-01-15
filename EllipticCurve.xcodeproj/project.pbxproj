@@ -14,6 +14,9 @@
 		E3433A6723CFB281008CB4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3433A6623CFB281008CB4FE /* Assets.xcassets */; };
 		E3433A6A23CFB281008CB4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3433A6823CFB281008CB4FE /* LaunchScreen.storyboard */; };
 		E3433A6D23CFB281008CB4FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3433A6C23CFB281008CB4FE /* main.m */; };
+		E3433A7623CFB2B5008CB4FE /* EllipticCurveKeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3433A7423CFB2B5008CB4FE /* EllipticCurveKeyPair.swift */; };
+		E3433A7723CFB2B5008CB4FE /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3433A7523CFB2B5008CB4FE /* SHA256.swift */; };
+		E3433A7923CFB2DC008CB4FE /* ECWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3433A7823CFB2DC008CB4FE /* ECWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		E3433A6923CFB281008CB4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3433A6B23CFB281008CB4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3433A6C23CFB281008CB4FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3433A7423CFB2B5008CB4FE /* EllipticCurveKeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllipticCurveKeyPair.swift; sourceTree = "<group>"; };
+		E3433A7523CFB2B5008CB4FE /* SHA256.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
+		E3433A7823CFB2DC008CB4FE /* ECWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		E3433A5923CFB27F008CB4FE /* EllipticCurve */ = {
 			isa = PBXGroup;
 			children = (
+				E3433A7323CFB2B5008CB4FE /* EllipticCurve */,
 				E3433A5A23CFB27F008CB4FE /* AppDelegate.h */,
 				E3433A5B23CFB27F008CB4FE /* AppDelegate.m */,
 				E3433A5D23CFB27F008CB4FE /* SceneDelegate.h */,
@@ -72,6 +79,16 @@
 				E3433A6823CFB281008CB4FE /* LaunchScreen.storyboard */,
 				E3433A6B23CFB281008CB4FE /* Info.plist */,
 				E3433A6C23CFB281008CB4FE /* main.m */,
+			);
+			path = EllipticCurve;
+			sourceTree = "<group>";
+		};
+		E3433A7323CFB2B5008CB4FE /* EllipticCurve */ = {
+			isa = PBXGroup;
+			children = (
+				E3433A7423CFB2B5008CB4FE /* EllipticCurveKeyPair.swift */,
+				E3433A7523CFB2B5008CB4FE /* SHA256.swift */,
+				E3433A7823CFB2DC008CB4FE /* ECWrapper.swift */,
 			);
 			path = EllipticCurve;
 			sourceTree = "<group>";
@@ -148,8 +165,11 @@
 			files = (
 				E3433A6223CFB27F008CB4FE /* ViewController.m in Sources */,
 				E3433A5C23CFB27F008CB4FE /* AppDelegate.m in Sources */,
+				E3433A7723CFB2B5008CB4FE /* SHA256.swift in Sources */,
 				E3433A6D23CFB281008CB4FE /* main.m in Sources */,
 				E3433A5F23CFB27F008CB4FE /* SceneDelegate.m in Sources */,
+				E3433A7923CFB2DC008CB4FE /* ECWrapper.swift in Sources */,
+				E3433A7623CFB2B5008CB4FE /* EllipticCurveKeyPair.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
